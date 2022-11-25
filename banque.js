@@ -41,3 +41,7 @@ function Verifsomme(){
 }
 
 
+/*création de la fonction envoie si tout valide*/
+function Valide(){
+    
+}
