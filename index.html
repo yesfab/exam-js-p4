@@ -15,7 +15,7 @@
         <h1>Bienvenue sur l'exam Javascript du Puissance 4</h1>
         <p>Cet exam vous propose un petit exercice de Javascript avec ce que nous avons vu cette semaine.</p>
 
-        <h2>Liste des objectifs (24 points)</h2>
+        <h2>Liste des objectifs (24 points + 8 points bonus)</h2>
         <ul>
             <li>Faire au moins un commit par TODO (8 points). Une TODO un élément de la liste ci-dessous.</li>
             <li>Récupérer les informations lors de l'envoi du formulaire ci-dessous. (2 points)</li>
@@ -24,11 +24,21 @@
                 <li>Le Compte en Banque est composé de 16 chiffres</li>
                 <li>La somme à déposer est un nombre valide et plus grande que 0.</li>
             </ul>
+            <li>Lorsqu'on tape le numero de compte:une fois valide (16 chiffres), changer son background-color par #6eff33. (2 points)</li>
             <li>Si tout est valide, après un envoi: Afficher dans une alerte "La somme de XXX à bien été déposée." (1 points)</li>
             <li>Si une erreur survient lors de l'envoi: Afficher dans une alerte "Erreur sur le champs HHH". (HHH = "somme" ou "compte"). ( 2 points)</li>
             <li>Envoyer les informations avec une requête HTTP (fetch ou XmlHttpRequest) sur l'URL suivante (dans n'importe quel format). (5 points).</li>
-            <li>Lorsqu'on tape le numero de compte:une fois valide (16 chiffres), changer son background-color par #6eff33. (2 points)</li>
+            <li>Bonus:</li>
+            <ul>
+                <li>Afficher la liste des transactions. (innerHTML = 2 points, createElement = 4 points)</li>
+                <li>Afficher la liste des comptes. (innerHTML = 2 points, createElement = 4 points)</li>
+                <li>[Information] pour les bonus (la liste de compte est l'ensemble des comptes sur lesquels nous avons fait une transaction).</li>
+            </ul>
         </ul>
+        <p>
+            Faites des fonctions. Et commentez votre code.<br />
+            J'ajoute jusqu'à 8 points bonus (1 par TODO) pour les commentaires dans votre code.<br />
+        </p>
     </div>
     <hr>
     <div id="exam">
@@ -46,6 +56,14 @@
                 <button type="submit">Envoyer les fonds sur le compte.</button>
             </div>
         </form>
+        <div class="row">
+            <div class="col">
+                <h3>Liste des transactions</h3>
+            </div>
+            <div class="col">
+                <h3>Les comptes</h3>
+            </div>
+        </div>
     </div>
 
     <!-- Faites le job ici, dans banque.js -->
