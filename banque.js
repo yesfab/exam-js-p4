@@ -17,5 +17,15 @@ function Verifcompte(){
 
 /*création de la fonction de vérification de la somme à déposer*/
 function VerifSomme(){
-    
+    /*récupération de la valeur de l'input somme*/
+    var sommeInput = document.getElementById("somme").value;
+
+    /*test valeur récupérée*/
+    console.log(sommeInput);
+    alert(sommeInput);
+
+    /*condition si somme ets sup à 0*/
+    if(sommeInput.value > 0){
+        return sommeInput.value;
+    }
 }
