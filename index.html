@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam JS P4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="exam-instructions">
+        <h1>Bienvenue sur l'exam Javascript du Puissance 4</h1>
+        <p>Cet exam vous propose un petit exercice de Javascript avec ce que nous avons vu cette semaine.</p>
+
+        <h2>Liste des objectifs</h2>
+        <ul>
+            <li>Faire un commit par TODO (6 points). Une TODO un élément de la liste ci-dessous.</li>
+            <li>Récupérer les informations lors de l'envoi du formulaire ci-dessous. (2 points)</li>
+            <li>Vérifier les informations du formulaire. (4 points)</li>
+            <ul>
+                <li>Le Compte en Banque est composé de 16 chiffres</li>
+                <li>La somme à déposer est un nombre valide et plus grande que 0.</li>
+            </ul>
+            <li>Si tout est valide. Afficher dans une alerte "La somme de XXX à bien été déposée." (1 points)</li>
+            <li>Si une erreur survient, afficher dans une alerte "Erreur sur le champs HHH". (HHH = "somme" ou "compte"). ( 2 points)</li>
+            <li>Envoyer les informations avec une requête HTTP (fetch ou XmlHttpRequest) sur l'URL suivante (dans n'importe quel format). (5 points).</li>
+            <li>Lorsque le champs compte en banque est valide (16 chiffres), changer son background-color par #6eff33. (2 points)</li>
+        </ul>
+    </div>
+    <hr>
+    <div id="exam">
+        <h3>Déposer des fonds sur le compte</h3>
+        <form id="exam-form">
+            <div class="input-group">
+                <label for="compte">Compte en Banque</label>
+                <input type="text" name="compte" id="compte">
+            </div>
+            <div class="input-group">
+                <label for="somme">Somme à déposer</label>
+                <input type="text" name="somme" id="somme">
+            </div>
+            <div class="input-group">
+                <button type="submit">Envoyer les fonds sur le compte.</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Faites le job ici, dans banque.js -->
+    <script src="banque.js"></script>
+</body>
+</html>

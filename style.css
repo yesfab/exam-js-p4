@@ -1,0 +1,37 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    font-size: 1.3rem;
+}
+
+button {
+    font-size: 1.5rem;
+}
+
+#exam {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#exam-form {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    margin: 20px 0;
+    text-align: center;
+}
