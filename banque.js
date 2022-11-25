@@ -9,6 +9,7 @@ function Verifcompte(){
     //console.log(compteInput);
     //alert(compteInput);
 
+    
     /*condition si num compte est composé de 16 chiffres*/
     if(compteInput.length === 16){
         const input = document.getElementById('compte');
@@ -39,4 +40,4 @@ function Verifsomme(){
     }
 }
 
-Verifcompte();
+
