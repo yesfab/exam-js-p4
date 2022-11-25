@@ -3,9 +3,11 @@
 function Verifcompte(){
 
     /*récupération de la valeur de l'input compte*/
-    const compteInput = document.getElementById("compte").value;
+    var compteInput = document.getElementById("compte").value;
 
+    /*test valeur récupérée*/
     console.log(compteInput);
+    alert(compteInput);
 
     /*condition si num compte est composé de 16 chiffres*/
     if(compteInput.length === 16){
@@ -13,3 +15,7 @@ function Verifcompte(){
     }
 }
 
+/*création de la fonction de vérification de la somme à déposer*/
+function VerifSomme(){
+    
+}
