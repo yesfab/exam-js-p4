@@ -9,7 +9,7 @@ function Verifcompte(){
 
     /*condition si num compte est composé de 16 chiffres*/
     if(compteInput.length === 16){
-        return compteInput;
+        return compteInput.value;
     }
-
 }
+
